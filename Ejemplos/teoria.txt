@@ -1,0 +1,41 @@
+POO: Paradigma de programacion (estilo de programacion), donde encontraremos funciones y datos.
+Se deja de centrar en la logica pura de los programas, se los piensa como objetos.
+Relaciones o interraciones entre los componentes del sistema. Se mejora la organizacion.
+Objeto: conjunto de funciones y variables (metodo y atributo). Un objeto se define en el modelado de datos.
+Clase: plantilla generica, donde se crea las instancias del objeto, cada uno con sus atributos diferentes.
+
+No meterse donde no te llaman ---> Encasulapcion: mantener un objeto con su informacion y estado seguro. Los atributos son innacesibles, 
+solo se modifican cuando se llaman las funciones. Se accede a los atributos con los GETTERS y los SETTERS.
+
+Pensar un objeto como cajas negras, donde sabemos como interactuar con ellos, pero no sabemos el comportamiento interno ---> Abstraccion:
+Un objeto no puede ser modifica desde fuera de una clase si esta abstraido. Modificar una implementacion sin interferin en otros objetos.
+
+Reutilizar ---> Herencia: definir relaciones gerarquicas entre clases, asi reutilizamos atributos y metodos comunes.
+
+Procesar objetos de distintas maneras ---> Polimorfismo: redifinir una logica de una clase (padre), y despues esa logica redefinida se puede utilizar en clases hijas.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Principios S.O.L.I.D
+
+Codigo mas organizado y legible
+Facilitar la aplicacion de cambios
+
+#Single Responsability: Cada clase deberia tener una sola responsabilidad, encargarse de solo una parte del sistema. Asegurar que lo que hace es correcto.
+
+#Open Closed: Una entidad debe estar abierta para su extension, pero cerrada para su modificacion. La funcionalidad se protege, 
+pero para escribir nuevas funcionalidades, se debe escribir nuevo codigo (utilizar herencia o polimorfismo)
+
+#Liskov Substitution: Toda clase que es hija de otra clase debe poder utilizarse como si fuera el mismo padre. Si utilizas el padre, tiene que comportarse igual con sus descendientes.
+
+#Interface Segregation: Tener clases pequeñas y especificas, que sean detalladas, en vez de tener una sola superclase.
+
+#Dependency Inversion: Los modulos de alto nivel, no deben depender de modulos de bajo nivel. Dependencia de interfaces (abstraccion).
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DRY: es un principio que establece que un software debe tener la menor cantidad de informacion repetida.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+KISS
